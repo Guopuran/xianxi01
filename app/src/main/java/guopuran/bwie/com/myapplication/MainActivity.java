@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
         viewPager.setAdapter(mypager);
         list = new ArrayList<>();
         initdata();
+        //指示器的选择
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int i, float v, int i1) {
